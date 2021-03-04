@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5428b7c4e4b03bac24213b18/1606274834786-GGYZBWTASJPOXX1967QF/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/prettyplace_jennichandlerphotography-27.jpg?format=2500w);
+}
+
+body{
+    width: 1280px;
+    height: 720px;
+
+}
+
+div.intro{
+    width: 900px;
+    height: 200px;
+    background: white;
+    border: 5px solid rgb(0, 132, 255);
+    margin-left: 500px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 10px;
+    transition: 0.4s;
+    opacity: 0;
+    position: absolute;
+    text-align: justify;
+    
+}
+
+div.intro:hover{
+    transition: 0.4s;
+    opacity: 1;
+}
+
+/*FIM INTRO*/
+/*FIM INTRO*/
+/*FIM INTRO*/
+section.indicadorTransitionIntro{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:rgb(1, 102, 196);
+    position: fixed;
+    margin-top: -12px;
+    margin-left: 905px;
+    opacity: 0.8;
+
+
+}
+
+
+section.indicadorTransitionMusica{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(1, 102, 196);
+    margin-left: -12px;
+    margin-top: 550px;
+    opacity: 0.8;
+    position: fixed;
+}
+
+
+div.bordaMusica{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    background: rgb(218, 218, 218);
+    margin-top: 280px;
+    margin-left: 10px;
+    transition: 0.7s;
+    opacity: 1;
+    border: solid 5px rgb(0, 132, 255);
+    position: fixed;
+    transition: 0.6s;
+    opacity: 0;
+    text-align: justify;
+    
+}
+
+
+div.bordaMusica:hover{
+    transition: 0.6s;
+    opacity: 1;
+}
+
+
+
+ p.songsTitle{
+  color: black;
+  font-size: 13px;   
+  line-height: 60px;
+  padding-top: 10px;
+ }
+
+ p.songsLinks{
+     text-align: center;
+     text-decoration: none;
+    color: black;
+     line-height: 35px;
+     font-size: 25px;
+     font-family: 'Montserrat', sans-serif;
+     background: white;
+     transition: 0.6s;
+    
+ }
+    /*FIM LINKS*/ /*FIM LINKS*/
+    /*FIM LINKS*/ /*FIM LINKS*/
+    /*FIM LINKS*/ /*FIM LINKS*/
+     /*FIM LINKS*/ /*FIM LINKS*/
+    section#loveUIndicator{
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-top: 430px;
+        margin-left: 1913px;
+        background: rgb(1, 102, 196);
+    }
+
+     div.loveya{
+         width: 600px;
+         height: 300px;
+         background: rgb(218, 218, 218);
+         position: fixed;
+         margin-top: 280px;
+         margin-left: 1310px;
+         color: black;
+         border: solid 5px rgb(0, 132, 255);
+         line-height: 22px;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 19px;
+         text-indent: 3px;
+         opacity: 0;
+         transition: 0.6s;
+         text-align: justify;
+
+     }
+     div.loveya:hover{
+         transition: 0.6s;
+         opacity: 1;
+     }
+
+     h1#titleLoveU{
+         text-align: center;
+         margin-top: 15px;
+         background: rgb(218, 218, 218);
+         font-family: 'Noto Sans JP', sans-serif;
+     }
+
+     /*FIM EU TE AMO*/ /*FIM EU TE AMO*/
+     /*FIM EU TE AMO*/ /*FIM EU TE AMO*/
+     /*FIM EU TE AMO*/ /*FIM EU TE AMO*/
+
+     div.divMESES{
+        position: fixed; 
+        width: 600px;
+         height: 293px;
+         background: rgb(218, 218, 218);
+         margin-left: 1310px;
+         margin-top: 585px;
+         border: solid 5px rgb(0, 132, 255);
+         font-family: 'Montserrat', sans-serif;
+         line-height: 24px;
+         font-size: 19px;
+         transition: 0.6s;
+         opacity: 0;
+         text-align: justify;
+     }
+
+     div.divMESES:hover{
+         transition: 0.6s;
+         opacity: 1;
+     }
+
+     section#MesesIndicator{
+     position: fixed;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     margin-top: 735px;
+     margin-left: 1913px;
+     background: rgb(1, 102, 196);
+     }
+
+     /*FIM MESES*/ /*FIM MESES*/
+     /*FIM MESES*/ /*FIM MESES*/
+     /*FIM MESES*/ /*FIM MESES*/
+ 
+
+     div.agradecimento{
+         width: 800px;
+         height: 150px;
+         background: rgb(218, 218, 218);
+         font-family: 'Montserrat', sans-serif;
+         font-size: 20px;
+         position: fixed;
+         margin-top: 810px;
+         margin-left: 475px;
+         line-height: 25px;
+         border: solid 5px rgb(0, 132, 255);
+         text-align: justify;
+         transition: 0.6s;
+         opacity: 0;
+     }
+     
+     div.agradecimento:hover{
+         transition: 0.6s;
+         opacity: 1;
+     }
